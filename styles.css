@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(7,69,126);
+    background: linear-gradient(43deg, rgba(7,69,126,1) 0%, rgba(255,255,255,1) 43%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    width: 300px;
+    height: 300px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgba(7,69,126,1);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 10px; /* Добавляем отступы вокруг кнопок */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: rgba(7,69,126,0.8);
+}
+
+button img {
+    max-width: 100px; /* Уменьшаем ширину изображения */
+    max-height: 100px; /* Уменьшаем высоту изображения */
+    /* margin-left: 10px; Добавляем отступ между текстом и изображением */
+}
+
+.btn-text {
+    display: block; /* Сделаем текст блочным элементом */
+    margin-bottom: 20px; /* Добавим отступ снизу текста, чтобы оставить место для изображения */
+}
+
+.btn-icon {
+    position: absolute; /* Установим абсолютное позиционирование для изображения */
+    bottom: 10px; /* Выровняем изображение по нижнему краю кнопки */
+    left: 10px; /* Выровняем изображение по левому краю кнопки */
+}
+
+.header {
+    text-align: center;
+    position: absolute;
+    margin-top: 20px; /* Добавляем отступ сверху */
+    
+    left: 0;
+    right: 0;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 20px;
+    color: rgba(7,69,126,0.8);
+    margin: 0;
+}
+
+
+.language-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(7,69,126,1);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.language-btn:hover {
+    background-color: rgba(7,69,126,0.8);
+}
+
+#bottomText {
+    text-align: center; /* Центрируем текст */
+    color: rgba(7,69,126,0.8); /* Устанавливаем цвет текста */
+    font-size: 14px; /* Уменьшаем размер шрифта */
+    font-style: italic; /* Добавляем стиль курсива */
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    bottom: 20px; /* Располагаем элемент под кнопками с отступом 20px */
+    left: 0;
+    right: 0;
+}
