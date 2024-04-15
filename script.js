@@ -17,12 +17,12 @@ function changeLanguage() {
     var languageBtn = document.querySelector('.language-btn');
     if (languageBtn.textContent === "RU") {
         languageBtn.textContent = "EN";
-        directionText.innerHTML = "Economic models for assessing the financial capabilities of medical organizations<br>seeking to implement advanced treatment methods in clinical practice.<br>Choose your preferred intervention:";
-        bottomText.textContent = "The information on this resource is not intended to be a recommendation. It is purely informational and analytical in nature, and should not be used as a guide for choosing a specific treatment approach or making decisions about the purchase of medical devices."
+        directionText.innerHTML = "Economic models for assessing the financial capabilities of medical organizations<br>seeking to implement advanced treatment methods in clinical practice.<br><br>Choose your preferred intervention:";
+        bottomText.innerHTML = "The information on this resource is not intended to be a recommendation. It is purely informational and analytical in nature,<br>and should not be used as a guide for choosing a specific treatment approach or making decisions about the purchase of medical devices."
         // Здесь можно добавить логику для изменения текста на кнопках
     } else {
         languageBtn.textContent = "RU";
-        directionText.innerHTML = "Экономические модели для определения финансовых возможностей медицинских организаций,<br>желающих внедрить современные методы лечения в клиническую практику.<br>Выберите интересующее вас вмешательство:";
+        directionText.innerHTML = "Экономические модели для определения финансовых возможностей медицинских организаций,<br>желающих внедрить современные методы лечения в клиническую практику.<br><br>Выберите интересующее вас вмешательство:";
         bottomText.innerHTML = "Информация на данном ресурсе не является рекомендацией, носит исключительно информационно-аналитический характер<br>и не должна рассматриваться как руководство к выбору того или иного подхода к лечению или принятию решения о закупке определённых медицинских изделий."// Здесь можно добавить логику для изменения текста на кнопках
     }
 
