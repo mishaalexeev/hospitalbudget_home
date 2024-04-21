@@ -94,3 +94,35 @@ button img {
     left: 0;
     right: 0;
 }
+
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    display: none;
+    align-items: center;
+}
+
+.cookie-banner p {
+    margin: 0;
+    flex: 1; /* Растягиваем текст на всю доступную ширину слева */
+}
+
+.cookie-banner button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 3px 10px; /* Уменьшаем отступы внутри кнопки */
+    cursor: pointer;
+    border-radius: 5px; /* Делаем кнопку маленькой и округленной */
+    font-size: 12px; /* Уменьшаем размер текста */
+    margin-left: 10px; /* Добавляем отступ слева от текста */
+    margin-right: 30px; /* Добавляем отступ справа */
+    height: 50px; /* Устанавливаем высоту кнопки */
+
+}
