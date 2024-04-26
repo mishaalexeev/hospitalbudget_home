@@ -31,21 +31,9 @@ function changeLanguage() {
 
     }
 
-
-    // Получаем ссылки на кнопки
-    var site1Btn = document.getElementById('site1Btn');
-    var site2Btn = document.getElementById('site2Btn');
-    
-    // Добавляем обработчики событий для клика на кнопки
-    site1Btn.addEventListener('click', function() {
-        window.open('http://85.234.106.147/home', '_blank'); // Открываем новое окно с сайтом site1.com
-    });
-    
-    site2Btn.addEventListener('click', function() {
-        window.open('https://boston.catzwolf.ru/', '_blank'); // Открываем новое окно с сайтом site2.com
-    }); 
-    
 }
+
+    
 
 document.addEventListener("DOMContentLoaded", function() {
     var cookieBanner = document.getElementById("cookieBanner");
@@ -68,3 +56,5 @@ document.addEventListener("DOMContentLoaded", function() {
         cookieBanner.style.display = "none";
     });
 });
+
+
